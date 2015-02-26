@@ -1,0 +1,46 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+header{
+	position: fixed;
+	height: 100px;
+	background: #e1e1e1;
+	width: 100%;
+}
+
+.logo{
+	background: url(../img/logo.png) no-repeat;
+	height: 100px;
+	text-indent: -9999px;
+	width: 360px;
+	float: left;
+	margin-left: 5%; 
+}
+
+.main-nav{
+	margin: 0 auto;
+	width: 45%;
+}
+.main-nav ul{
+	text-align: center;
+}
+
+.main-nav li{
+	display: inline-block;
+	margin: 0 10px;
+}
+
+.main-nav a{
+	line-height: 100px;
+	text-decoration: none;
+	text-align: center;
+	color: #000;
+}
+
+
+
+
+
+
