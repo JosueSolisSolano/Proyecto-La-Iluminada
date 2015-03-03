@@ -24,7 +24,7 @@ header {
 
 .main-nav{
 	margin: 0 auto;
-	width: 45%;
+	width: 50%;
 }
 .main-nav ul{
 	text-align: center;
@@ -42,20 +42,7 @@ header {
 	color: #000;
 }
 
-.main .welcome {
-	text-align: center;
-	padding-top: 400px;
-}
 
-.iluminada-banner{
-	width: 590px;
-	height: 245px;
-}
-
-.main .work-main {
-	text-align: center;
-	top: 380px;
-}
 
 .main{
 	background: url(../img/background-parallax.jpg) no-repeat fixed;
@@ -67,9 +54,54 @@ header {
     -o-background-size: cover;
     background-size: cover;
     min-height: 678px;
-    padding-top: 100px;
-    text-align: center;
+    padding-top: 200px;
 }
+
+.welcome ,.work-main{
+	text-align: center;
+	margin: 0 auto;
+	display: block;
+	width: 620px;
+	padding: 10px;
+}
+.welcome::before,.welcome::after{
+	content: "";
+	width: 200px;
+	height: 4px;
+	background-color: #fff;
+	display: inline-block;
+	position: relative;
+	top: -4px;
+}
+.welcome::before{
+	right: 52px;
+}
+.welcome::after{
+	left: 52px;
+}
+.work-main::before,.work-main::after{
+	content: "";
+	width: 150px;
+	height: 4px;
+	background-color: #fff;
+	display: inline-block;
+	position: relative;
+	top: -4px;
+}
+.work-main::before{
+	right: 52px;
+}
+.work-main::after{
+	left: 52px;
+}
+
+.iluminada-banner{
+	width: 620px;
+	height: 200px;
+	margin: 0 auto;
+	display: block;
+}
+
 
 .background-title {
 	background: url(../img/background-parallax.jpg) no-repeat fixed;
