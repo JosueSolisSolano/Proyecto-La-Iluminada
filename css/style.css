@@ -47,15 +47,28 @@ header {
 	padding-top: 400px;
 }
 
-.main img {
+.iluminada-banner{
 	width: 590px;
 	height: 245px;
-	margin-top: 150px;
 }
 
 .main .work-main {
 	text-align: center;
 	top: 380px;
+}
+
+.main{
+	background: url(../img/background-parallax.jpg) no-repeat fixed;
+    background-position: center center;
+    color: #fff;
+    opacity: 3;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    min-height: 678px;
+    padding-top: 100px;
+    text-align: center;
 }
 
 .background-title {
@@ -79,20 +92,6 @@ header {
     margin: 0 auto;
     position: absolute;
     line-height: 200px;
-}
-
-.main{
-	background: url(../img/background-parallax.jpg) no-repeat fixed;
-    background-position: center center;
-    color: #fff;
-    opacity: 3;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    min-height: 678px;
-    padding-top: 100px;
-    text-align: center;
 }
 
 .img-products {
